@@ -1,0 +1,141 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Registry"
+    "description": "Kujira Token Registry"
+    "type": "object",
+    "properties": {
+        "denom": {
+            "type": "string"
+        },
+        "ticker": {
+            "type": "string"
+        },
+        "cg_id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "native_chain": {
+            "type": "string"
+        },
+        "bridge": {
+            "type": "string"
+        },
+        "description": {
+            "type": "object",
+            "properties": {
+                "en": {
+                    "type": "string"
+                },
+                "es": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "en"
+            ]
+        },
+        "links": {
+            "type": "object",
+            "properties": {
+                "homepage": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "whitepaper": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "docs": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "blockchain_site": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "official_forum_url": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "chat_url": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "announcement_url": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "twitter_screen_name": {
+                    "type": "string"
+                },
+                "telegram_channel_identifier": {
+                    "type": "string"
+                },
+                "subreddit_url": {
+                    "type": "string"
+                },
+                "repos_url": {
+                    "type": "object",
+                    "properties": {
+                        "github": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "bitbucket": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            },
+            "required": [
+                "homepage"
+            ]
+        },
+        "market_data": {
+            "type": "object",
+            "properties": {
+                "total_supply": {
+                    "type": "number"
+                },
+                "max_supply": {
+                    "type": "number"
+                },
+                "circulating_supply": {
+                    "type": "number"
+                },
+                "last_updated": {
+                    "type": "string",
+                    "format": "date-time"
+                }
+            }
+        }
+    },
+    "required": [
+        "id",
+        "symbol",
+        "name",
+        "description",
+        "links"
+    ]
+}
