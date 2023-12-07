@@ -1,0 +1,30 @@
+{
+  "denom": "ukuji",
+  "ticker": "KUJI",
+  "cg_id": "kujira",
+  "name": "Kujira",
+  "native_chain": "Kujira",
+  "bridge": "",
+  "ibc_escrow": "",
+  "description": {
+    "en": "The Blockchain for Real Yield. A decentralized ecosystem for protocols, builders and web3 users seeking sustainable FinTech",
+    "es": "La Blockchain del Rendimiento Real. Un ecosistema descentralizado para protocolos, desarrolladores y usuarios web3 que buscan una FinTech sostenible."
+  },
+  "links": {
+    "homepage": ["https://kujira.network/"],
+    "whitepaper": ["https://docs.kujira.app/introduction/readme"],
+    "docs": ["https://docs.kujira.app"],
+    "blockchain_site": ["https://finder.kujira.network/"],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": ["https://medium.com/team-kujira","https://t.me/kujira_announcements"],
+    "twitter_screen_name": "https://twitter.com/TeamKujira",
+    "telegram_channel_identifier": "https://t.me/team_kujira",
+    "discord_server": "https://discord.gg/teamkujira",
+    "subreddit_url": "https://www.reddit.com/r/TeamKujira/",
+    "repos_url": {
+      "github": ["https://github.com/Team-Kujira"],
+      "bitbucket": []
+    }
+  }
+}
