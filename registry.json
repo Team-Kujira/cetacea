@@ -117,9 +117,12 @@
         },
     },
     "required": [
-        "id",
-        "symbol",
+        "denom",
+        "ticker",
+        "cg_id",
         "name",
+        "native_chain",
+        "bridge",
         "description",
         "links"
     ]
