@@ -22,6 +22,9 @@
         "bridge": {
             "type": "string"
         },
+        "ibc_escrow": {
+            "type": "string"
+        },
         "description": {
             "type": "object",
             "properties": {
@@ -112,24 +115,6 @@
                 "homepage"
             ]
         },
-        "market_data": {
-            "type": "object",
-            "properties": {
-                "total_supply": {
-                    "type": "number"
-                },
-                "max_supply": {
-                    "type": "number"
-                },
-                "circulating_supply": {
-                    "type": "number"
-                },
-                "last_updated": {
-                    "type": "string",
-                    "format": "date-time"
-                }
-            }
-        }
     },
     "required": [
         "id",
