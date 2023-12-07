@@ -90,6 +90,9 @@
                 "telegram_channel_identifier": {
                     "type": "string"
                 },
+                "discord_server": {
+                    "type": "string"
+                },
                 "subreddit_url": {
                     "type": "string"
                 },
