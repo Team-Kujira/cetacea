@@ -28,5 +28,35 @@
         "bitbucket": []
       }
     }
+  },
+  "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2":{
+  "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+  "ticker": "ATOM",
+  "cg_id": "cosmos-hub",
+  "name": "Cosmos Hub",
+  "native_chain": "Cosmos Hub",
+  "bridge": "IBC Transfer",
+  "ibc_escrow": "kujira1a53udazy8ayufvy0s434pfwjcedzqv348yqaxy",
+  "description": {
+    "en": "Cosmos Hub is the gateway to a rapidly expanding ecosystem of independent interconnected blockchains built using developer-friendly application components and connected with ground-breaking IBC (Inter-Blockchain Communication) protocol.",
+    "es": "Cosmos Hub is the gateway to a rapidly expanding ecosystem of independent interconnected blockchains built using developer-friendly application components and connected with ground-breaking IBC (Inter-Blockchain Communication) protocol."
+  },
+  "links": {
+    "homepage": ["https://cosmos.network/"],
+    "whitepaper": ["https://cosmos.network/whitepaper"],
+    "docs": ["https://docs.cosmos.network/"],
+    "blockchain_site": ["https://www.mintscan.io/cosmos/"],
+    "official_forum_url": ["https://forum.cosmos.network/"],
+    "chat_url": [],
+    "announcement_url": ["https://blog.cosmos.network/"],
+    "twitter_screen_name": "https://twitter.com/cosmos",
+    "telegram_channel_identifier": "https://t.me/cosmosproject",
+    "discord_server": "https://discord.com/invite/cosmosnetwork",
+    "subreddit_url": "https://reddit.com/r/cosmosnetwork",
+    "repos_url": {
+      "github": ["https://github.com/cosmos"],
+      "bitbucket": []
+    }
   }
+}
 }
