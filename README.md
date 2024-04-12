@@ -12,3 +12,11 @@ Schema files containing the recommended metadata structure can be found in the `
 Pull requests are very much accepted to add data to `token-registry.json` both for adding new assets or complementing/rectifing asset information.
 
 Please give Pull Requests a title that describes the change/es in a more optimal manner than default titles. Some recommended details would be: the affected token, values, etc. to give some more detail; e.g., "Add tokens XXX and YYY. Update ZZZ info.".
+
+
+## To-Do
+
+- Automate denom parsing checker with kujira.js
+- Enable API
+- Automate downloading and updating from Posgresql
+- Contract registry?
